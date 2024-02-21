@@ -1,4 +1,40 @@
-img{
-	width: 50px;
+h1 {
+padding: 3%;
+	text-align: center;
+}
+.ingredients {
+/* padding: 20%; */
+	margin-left: 5%;
+/* 	display: grid; */
+/* 		grid-template-columns: auto auto auto; */
+
 }
 
+.instructions {
+/* padding: 20%; */
+	margin-right: 5%;
+	width: 30%;
+	float: right;
+/* display: grid; */
+/* 	grid-template-columns: auto auto auto; */
+
+}
+
+.Image {
+/* padding: 20%; */
+	position: absolute;
+	height: 93%;
+	width: 30%;
+	margin-left: 3%;
+	margin-right: auto;
+/* 	display: grid; */
+/* 	grid-template-columns: auto auto auto; */
+	object-fit: cover;
+}
+
+.grid {
+	column-gap: 20%
+	display: grid;
+	grid-template-columns: auto auto auto;
+	
+}
