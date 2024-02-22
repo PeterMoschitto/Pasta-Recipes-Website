@@ -1,40 +1,49 @@
+body {
+	background: Cornsilk;
+}
+
 h1 {
 padding: 3%;
 	text-align: center;
 }
-.ingredients {
-/* padding: 20%; */
-	margin-left: 5%;
-/* 	display: grid; */
-/* 		grid-template-columns: auto auto auto; */
 
+.ingredients {
+	margin-left: 5%;
 }
+
 
 .instructions {
-/* padding: 20%; */
 	margin-right: 5%;
-	width: 30%;
-	float: right;
-/* display: grid; */
-/* 	grid-template-columns: auto auto auto; */
-
+	width: 130%;
 }
 
+
+ 
 .Image {
-/* padding: 20%; */
-	position: absolute;
-	height: 93%;
-	width: 30%;
+	height: 80%;
+	width: 90%;
 	margin-left: 3%;
-	margin-right: auto;
-/* 	display: grid; */
-/* 	grid-template-columns: auto auto auto; */
-	object-fit: cover;
+	object-fit: scale-down;
 }
+
 
 .grid {
-	column-gap: 20%
 	display: grid;
 	grid-template-columns: auto auto auto;
+	column-gap: 2%
+}
+
+#VideoLink {
+	padding: 0.5%;
+	margin: 4%; 
+	float: right;
+	background-color: white;
+	text-align: center;
+	text-shadow: black;
+	border: solid black;
+	color: black;
+/* 	text-decoration:  */
+	display: inline-block;
 	
+/* 	border: solid black; */
 }
