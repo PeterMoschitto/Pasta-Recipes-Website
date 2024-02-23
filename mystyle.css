@@ -14,7 +14,7 @@ padding: 3%;
 
 .instructions {
 	margin-right: 5%;
-	width: 130%;
+	width: 90%;
 }
 
 
@@ -33,17 +33,22 @@ padding: 3%;
 	column-gap: 2%
 }
 
-#VideoLink {
+.VideoLink {
+/* 	margin: 0.5% */
 	padding: 0.5%;
-	margin: 4%; 
 	float: right;
 	background-color: white;
 	text-align: center;
 	text-shadow: black;
 	border: solid black;
 	color: black;
-/* 	text-decoration:  */
 	display: inline-block;
-	
-/* 	border: solid black; */
+}
+
+
+.Video {
+	margin-left: 15%;
+	  max-width: 370%;
+	width: 380%; 
+	height: 300%;
 }
