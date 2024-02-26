@@ -26,6 +26,14 @@ padding: 3%;
 	object-fit: scale-down;
 }
 
+.FadeImage {
+padding: 1.5%;
+	width: 25%;
+	object-fit: scale-down;
+	display: none;
+	float: right;
+}
+
 
 .grid {
 	display: grid;
@@ -51,4 +59,32 @@ padding: 3%;
 	  max-width: 370%;
 	width: 380%; 
 	height: 300%;
+}
+
+#panel, #dropDown {
+	text-align: center;
+	background-color: wheat;
+	border: solid 1px black;
+}
+
+#dropDown {
+	display: none;
+}
+
+#HomeImage{
+	width: 50%;
+	object-fit: scale-down;
+}
+
+#HomePageButton {
+	background-color: hotpink;
+	position: absolute;
+}
+
+#HomePageButton:hover {
+	background-color: red;
+}
+
+#HomePageButton:active {
+	background-color: lime;
 }
