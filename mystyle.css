@@ -42,22 +42,30 @@ padding: 1.5%;
 }
 
 .VideoLink {
-/* 	margin: 0.5% */
 	padding: 0.5%;
 	float: right;
 	background-color: white;
 	text-align: center;
 	text-shadow: black;
 	border: solid black;
-	color: black;
+	background-color: white;
 	display: inline-block;
+}
+
+.VideoLink:hover {
+	background-color: lightgrey;
+}
+
+.VideoLink:active {
+	background-color: grey;
 }
 
 
 .Video {
 	margin-left: 15%;
-	  max-width: 370%;
-	width: 380%; 
+	margin-right: 15%;
+	max-width: 370%;
+	width: 300%; 
 	height: 300%;
 }
 
@@ -65,6 +73,10 @@ padding: 1.5%;
 	text-align: center;
 	background-color: wheat;
 	border: solid 1px black;
+	padding: 0.5%;
+	margin-left: 1%;
+	margin-right: 1%;
+
 }
 
 #dropDown {
@@ -77,14 +89,20 @@ padding: 1.5%;
 }
 
 #HomePageButton {
-	background-color: hotpink;
+	background-color: white;
 	position: absolute;
+	padding: 0.5%;
+	text-align: center;
+	margin-top: 1%;
+	margin-left:1%;
+
+
 }
 
 #HomePageButton:hover {
-	background-color: red;
+	background-color: lightgrey;
 }
 
 #HomePageButton:active {
-	background-color: lime;
+	background-color: grey;
 }
